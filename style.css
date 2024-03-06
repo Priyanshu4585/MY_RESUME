@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+/* div1 */
+
+
+#div1{
+    height: 100%;
+    width: 35%;
+ background-color:#303642;
+
+ }
+ 
+ #div2{
+     height: 100%;
+     width: 65%;
+  background-color:white;
+ }
+
+
+#sub-div1,#sub-div2,#sub-div3,#sub-div4{
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 100px;
+    width: auto;
+    padding-right:20px ;
+}
+
+#sub-div2 ul{
+   padding-left: 30px; 
+}
+
+#sub-div2{
+color: #fff;
+font-weight: 500;
+font-size: 18px;
+}
+
+
+
+.heading{
+color: #38B6FF;
+font-size: 36px;
+font-weight: 500;
+padding-bottom: 10px;
+}
+
+.icon{
+    color: #38B6FF;
+}
+#a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: none;
+    text-decoration: none;
+    padding-left:10px;
+}
+
+#ul1 li{
+    margin-bottom: 10px;
+    list-style: none;
+    width: auto;
+}
+
+#ul2 li{
+    margin-bottom: 10px;
+    list-style: none;
+    width: auto;
+}
+
+#ul3 li{
+    margin-bottom: 10px;
+    list-style: none;
+    width: auto;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ul4 li{
+    margin-bottom: 10px;
+    list-style: none;
+    width: auto;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sub-div2 p{
+    padding-bottom: 10px;
+    font-weight: bolder;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+#main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 1760px;
+}
+
+
+#sub-div3 ,#sub-div4 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#sub-div3 li,#sub-div4 li{
+    font-weight: 700;
+    display: flex;
+    justify-content:space-between;
+    margin-right: 30px;
+}
+
+
+/* div2 */
+
+
+#div2{
+    padding:0px 20px 0 50px ;
+}
+
+#name{
+    font-size: 120px;
+    font-weight: bolder;
+    color:#303642;
+}
+
+#Sname{
+    font-size: 100px;
+    font-weight: 500;
+    margin-top: -40px;
+    color:#303642;
+}
+
+.p1{
+    color: #303642;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.p2{
+    color: #303642;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#obj{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    display: flex;
+    font-size: 35px;
+}
+
+
+
+#div3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#n{
+ padding-top: 50px;   
+}
+
+#bar1{
+    height: 5px;width: 0px;background-color: aliceblue;border-left: 500px solid #38B6FF;border-radius: 2px;
+}
+
+#bar2{
+    height: 5px;width: 0px;background-color: aliceblue;border-left: 250px solid #38B6FF;border-radius: 2px;
+}
+
+#bar3{
+    height: 5px;width: 0px;background-color: aliceblue;border-left: 500px solid #38B6FF;border-radius: 2px;
+}
+
+#obj1,#obj2,#obj3{display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+@media(max-width:800px){
+
+    #sub-div1,#sub-div2 ,#sub-div3,#sub-div4{
+        padding-right: 0px;
+        padding-left: 20px;
+
+         }
+        
+
+
+    #sub-div1 a{
+padding-right: 0px;
+padding-left: 10px;
+width: auto;
+font-size:12px ;
+ }
+
+ #sub-div3 li , #sub-div4 li{
+font-size: 18px;
+ }
+
+ #name{
+    font-size: 80px;
+ }
+
+ #Sname{
+    font-size: 60px;
+    margin-top: -20px;
+ }
+
+#bar1{
+    height: 5px;width: 0px;background-color: aliceblue;border-left: 250px solid #38B6FF;border-radius: 2px;
+}
+#bar2{
+    height: 5px;width: 0px;background-color: aliceblue;border-left: 35px solid #38B6FF;border-radius: 2px;
+
+}
+#bar3{
+    height: 5px;width: 0px;background-color: aliceblue;border-left: 250px solid #38B6FF;border-radius: 2px;
+}
+
+#obj1,#obj2,#obj3{
+    font-size: 35px;
+}
+
+
+#exp{
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+
+#wd
+{
+    font-size: 28px;
+}
+
+#skills,#hobbies{
+    font-size: 25px;
+}
+
+
+#ps,#objtv{
+    font-size: 24px;
+}
+
+}
+
