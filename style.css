@@ -110,7 +110,7 @@ padding-bottom: 10px;
     display: flex;
     align-items: center;
     width: 100%;
-    height: 1760px;
+    height: 1600px;
 }
 
 
@@ -199,6 +199,38 @@ justify-content: space-between;
 
 }
 
+#c{
+    height: 5px;width: 15px;background-color: aliceblue;border-left: 85px solid #38B6FF;border-radius: 2px;
+}
+#html{
+    height: 5px;width: 05px;background-color: aliceblue;border-left: 95px solid #38B6FF;border-radius: 2px;
+}
+#css{
+    height: 5px;width: 05px;background-color: aliceblue;border-left: 95px solid #38B6FF;border-radius: 2px;
+}
+#js{
+    height: 5px;width: 15px;background-color: aliceblue;border-left: 85px solid #38B6FF;border-radius: 2px;
+}
+#react{
+    height: 5px;width: 10px;background-color: aliceblue;border-left: 90px solid #38B6FF;border-radius: 2px; 
+}
+
+#node{
+    height: 5px;width: 10px;background-color: aliceblue;border-left: 90px solid #38B6FF;border-radius: 2px;
+}
+#express{
+    height: 5px;width: 15px;background-color: aliceblue;border-left: 85px solid #38B6FF;border-radius: 2px;   
+}
+#sql{
+    height: 5px;width: 10px;background-color: aliceblue;border-left: 90px solid #38B6FF;border-radius: 2px;
+}
+
+#english{height: 5px;width: 10px;background-color: aliceblue;border-left: 90px solid #38B6FF;border-radius: 2px;}
+
+#hindi{height: 5px;width: 0px;background-color: aliceblue;border-left: 100px solid #38B6FF;border-radius: 2px;}
+
+
+
 @media(max-width:800px){
 
     #sub-div1,#sub-div2 ,#sub-div3,#sub-div4{
@@ -257,7 +289,7 @@ font-size: 18px;
 }
 
 #skills,#hobbies{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 
@@ -266,4 +298,152 @@ font-size: 18px;
 }
 
 }
+
+
+
+
+
+@media(max-width:450px){
+
+
+    #main{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 820px;
+    }
+
+    .heading {
+        color: #38B6FF;
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+
+    #sub-div1, #sub-div2, #sub-div3, #sub-div4{
+
+        padding-top: 40px;
+        padding-left: 5px;
+    }
+
+    #ul1{
+        font-size: 5px;
+    }
+
+    #sub-div1 a{
+        padding-right: 0px;
+        padding-left: 10px;
+        width: auto;
+        font-size:5.5px ;
+         }
+
+#name{
+    margin-top: -20px;
+    font-size: 40px;
+}
+
+#Sname{
+    font-size: 35px;
+}
+
+#div2{
+    padding-left: 10px;
+}
+
+#bar1{
+    height: 5px;width: 0px;background-color: aliceblue;border-left: 100px solid #38B6FF;border-radius: 2px;
+}
+#bar2{
+    height: 5px;width: 0px;background-color: aliceblue;border-left: 15px solid #38B6FF;border-radius: 2px;
+
+}
+#bar3{
+    height: 5px;width: 0px;background-color: aliceblue;border-left: 100px solid #38B6FF;border-radius: 2px;
+}
+    
+#sub-div2 p{
+    font-size: 8px;
+}
+
+.cgpa{
+    font-size: 8px;   
+}
+
+#sub-div3 li , #sub-div4 li{
+    font-size: 10px;
+margin: 0 15px 0 0 ;
+}
+
+    #c{
+        height: 5px;width: 7.5px;background-color: aliceblue;border-left: 42.5px solid #38B6FF;border-radius: 2px;
+    }
+    #html{
+        height: 5px;width: 2.5px;background-color: aliceblue;border-left: 47.5px solid #38B6FF;border-radius: 2px;
+    }
+    #css{
+        height: 5px;width: 2.5px;background-color: aliceblue;border-left: 47.5px solid #38B6FF;border-radius: 2px;
+    }
+    #js{
+        height: 5px;width: 7.5px;background-color: aliceblue;border-left: 42.5px solid #38B6FF;border-radius: 2px;
+    }
+    #react{
+        height: 5px;width: 5px;background-color: aliceblue;border-left: 45px solid #38B6FF;border-radius: 2px; 
+    }
+    
+    #node{
+        height: 5px;width: 5px;background-color: aliceblue;border-left: 45px solid #38B6FF;border-radius: 2px;
+    }
+    #express{
+        height: 5px;width: 7.5px;background-color: aliceblue;border-left: 43.5px solid #38B6FF;border-radius: 2px;   
+    }
+    #sql{
+        height: 5px;width: 5px;background-color: aliceblue;border-left: 45px solid #38B6FF;border-radius: 2px;
+    }
+
+    #english{height: 5px;width: 5px;background-color: aliceblue;border-left: 45px solid #38B6FF;border-radius: 2px;}
+
+    #hindi{height: 5px;width: 0px;background-color: aliceblue;border-left: 50px solid #38B6FF;border-radius: 2px;}
+
+    #obj1,#obj2,#obj3,#us{
+        font-size: 18px;
+    }
+
+    #ps,#objtv{
+        font-size: 12px;
+    }
+
+    #wd
+    {
+        font-size: 14px;
+    }
+    
+    #skills,#hobbies{
+        font-size: 12px;
+    }
+
+    #exp{
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    #n{
+        padding-top: 40px;
+    }
+
+    #hobby{
+        font-size: 20px;  
+    }
+#skill{
+    font-size: 20px; 
+}
+#div2{
+    padding-right: 5px;
+}
+
+#div3{
+    margin-top: 10px;
+}
+
+}
+
 
