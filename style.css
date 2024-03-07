@@ -8,6 +8,10 @@
 
 /* div1 */
 
+body{
+    min-width: fit-content;
+}
+
 
 #div1{
     height: 100%;
